@@ -17,14 +17,6 @@ variable "outbound-rules" {
 
 
 
-variable "inbound-rules" {
-    type = list
-    default = []
-  
-    }
-
-
-
 
 
 variable "expense_vpc_id" {
