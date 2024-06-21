@@ -19,6 +19,7 @@ variable "outbound-rules" {
 
 variable "inbound-rules" {
     type = list
+    default = []
   
     }
 
